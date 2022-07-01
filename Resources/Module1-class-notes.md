@@ -25,6 +25,32 @@ GitHub is an online free repository, where you can save your code to share publi
 
 Visit [GitHub](https://github.com/) to sign up!
 
+---
+
+Useful links:
+
+https://www.submarinecablemap.com
+
+Great place to find good cheap books
+[Packt>](https://www.packtpub.com)
+
+[Google Chrome](https://www.google.com/intl/en_ca/chrome/)
+
+HTML Cheat Sheet
+[HTML Cheat sheet](https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf)
+
+Resources for developers
+[MDN](https://developer.mozilla.org/en-US/)
+
+Alternative to MDN
+[devdocs.io](https://devdocs.io)
+
+W3Schools
+[W3](https://www.w3schools.com)
+
+WayBack machine (to find out what websites used to look like)
+[archive.org](https://archive.org/web/)
+
 ## Q&A
 
 ---
