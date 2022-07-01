@@ -3,12 +3,12 @@
 Thank you for taking class!
 I wanted to provide this reference for you to summarize some of the things we talked about, and some recommended resources. These resources are not required to finish the course, but it would be great to have some of them for a better over all experience.
 
-If you have a laptop you can use VSCode as your text editor(IDE)
-[VSCode download](https://code.visualstudio.com/)
+> If you have a laptop you can use VSCode as your text editor(IDE)
+> [VSCode download](https://code.visualstudio.com/)
 
-If you do not have a laptop, or are using a mobile device such as an iPad or mobile phone, you can use;
+> If you do not have a laptop, or are using a mobile device such as an iPad or mobile phone, you can use; [replit>](https://replit.com/)
 
-[replit>](https://replit.com/), replit is an online IDE that enables you to write code, without having a computer or laptop. It is 100% free.
+replit is an online IDE that enables you to write code, without having a computer or laptop. It is 100% free.
 
 **If you have a laptop, and feel comfortable using VSCODE, replit is not required, so you don't need both, you can choose one or the other.**
 
@@ -49,9 +49,9 @@ Visit [GitHub](https://github.com/) to sign up!
 
 > You can download the content from each module, from GitHub before each class, but that's not required
 
-**6. Can I have your extentions list?**
+**6. Can I have your extension list?**
 
-> Extention list will be in the resources file, if you decide to install them
+> [Extension List](https://github.com/ryancollins-dev/pub-intro-to-programming/blob/main/Resources/extensions.md)
 
 **7. I feel overwhelmed xD**
 
