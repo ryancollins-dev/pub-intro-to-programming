@@ -1,0 +1,15 @@
+Note: When running through the command "npm i"
+
+There was an error for my npm, the solution to get the package compiled, was found here -> https://stackoverflow.com/questions/66893199/hanging-stuck-reifyprettier-timing-reifynodenode-modules-nrwl-workspace-comp
+
+I used 'npm install -g npm@6'
+
+Followed by npm install 
+
+And upgraded the packages, after deleting the lock file, 
+
+ncu, 
+ncu -u,
+npm install
+
+  

@@ -12,8 +12,8 @@ html {
   --font-mono: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   scroll-behavior: smooth;
-  /* background-color: black;
-  color: white; */
+  /* background-color: black; */
+  /* color: white; */
   font-family: "Roboto", sans-serif;
 }
 
