@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Check the console!</p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+        target="_blank"
+        >MDN docs for let</a
+      >
+    </p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+        target="_blank"
+        >Also checkout var</a
+      >
+    </p>
+    <p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+        target="_blank"
+        >Also checkout const!</a
+      >
+    </p>
+    <script>
+      let x = 1;
+
+      if (x === 1) {
+        let x = 2;
+
+        console.log(x);
+        // expected output: 2
+      }
+
+      console.log(x);
+      // expected output: 1
+    </script>
+  </body>
+</html>
