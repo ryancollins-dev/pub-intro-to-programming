@@ -1,105 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link href="styles/main.css" rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-</head>
-<body>
-     <!-- navbar start -->
-     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-          <div class="container-fluid">
-            <a href="/" class="d-flex align-items-center mb-2 mb-md-0 me-md-auto text-decoration-none ms-2">
-              <img src="img/logo.webp" height="40px" alt="logo"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+    >
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-md-0 me-md-auto text-decoration-none ms-2"
+          >
+            <img src="img/logo.webp" height="40px" />
             <span class="fs-2 ms-2 text-white">Blog</span>
           </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="offcanvas offcanvas-end"
-              tabindex="-1"
-              id="offcanvasNavbar"
-              aria-labelledby="offcanvasNavbarLabel"
-            >
-              <div class="offcanvas-header bg-dark">
-                <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
-                  Menu
-                </h5>
-                <button
-                  type="button"
-                  class="btn-close btn-close-white"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div class="offcanvas-body bg-dark">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header bg-dark">
+              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body bg-dark">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
-        </nav>
-      </header>
-      
-      <!-- navbar end -->
-      <main>
-        <!-- about card start -->
-<div class="container about">
-<div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-<div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-  <h1 class="display-4 fw-bold lh-1">About Me</h1>
-  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eaque est quae ratione sequi sint repellat iste incidunt, neque libero dolor, quia a culpa quaerat dolorum sunt suscipit maxime saepe!</p>
-</div>
-<div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-  <img class="rounded=lg-3"
-  src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80" alt="" width="720"/>
-</div>
-</div>
-</div>
-<!-- about card end -->
-      </main>
-      
-      <!-- footer start  -->
-      <div class="container">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link px-2 text-muted">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="./about.html" class="nav-link px-2 text-muted">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="./contact.html" class="nav-link px-2 text-muted">Contact</a>
-            </li>
-          </ul>
-          <p class="text-center text-muted">
-            &copy; 2022 Your name
-          </p>
-        </footer>
-      </div>
-      <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+    <main>
+      <section>
+        <div class="container about">
+          <div
+            class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+          >
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+              <h1 class="display-4 fw-bold lh-1">About Me</h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                distinctio deserunt ullam fugit hic aspernatur recusandae nemo
+                eius laboriosam consectetur! Aliquam delectus accusamus modi
+                consequuntur suscipit, eveniet ratione excepturi mollitia?
+              </p>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img
+                class="rounded-lg-3"
+                src="https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80"
+                alt=""
+                width="720"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link px-2 text-muted">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link px-2 text-muted"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Ryan Collins</p>
+      </footer>
+    </div>
+    <!-- footer end -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/scripts/main.js"></script>
+  </body>
 </html>

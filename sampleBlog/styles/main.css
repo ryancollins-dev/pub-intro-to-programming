@@ -1,37 +1,47 @@
+/* Sticky footer */
+
 main {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
+/* Top margin on the about page  */
+.about {
+  margin-top: 100px;
+}
+
+/* Contact form width */
+.contact-form {
+  max-width: 960px;
+}
+
+/* Main page hero start  */
 .hero {
-    background-image: url(https://images.unsplash.com/photo-1638633898609-07028cc6d756?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin-bottom: 20px;
-    z-index: -2;
+  background-image: url('https://images.unsplash.com/photo-1638633898609-07028cc6d756?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
 }
 
 .hero h1 {
-    font-size: 60px;
-    margin: -20px 0 20px;
-    color: #111827;
+  font-size: 60px;
+  /* text-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  margin: -20px 0 20px;
+  color: #111827;
 }
 
 .hero p {
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #111827;
-}
-
-.about {
-    margin-top: 100px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #1f2937;
 }
